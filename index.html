@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TO DOOOO!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="clear">
+                <i class="fa fa-refresh" aria-hidden="true"></i>
+            </div>
+            <p id="date" class="date"></p>
+            <img class="img-fluid cover-img" src="gold.jpg" alt="Cover image" />
+        </header>
+
+        <section class="content">
+            <ul id="list" class="list">
+                <li class="item">
+                    <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                    <span class="text">Drink Coffee</span>
+                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                </li>
+                <li class="item">
+                    <i class="fa fa-circle-thin complete" aria-hidden="true"></i>
+                    <span class="text">go to park</span>
+                    <i class="fa fa-trash-o delete" aria-hidden="true"></i>
+                </li>
+            </ul>
+            <div class="add-item">
+                <i id="add-todo-btn" class="fa fa-plus-circle" aria-hidden="true"></i>
+                <input id="input" type="text" placeholder="Add todo" />
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
