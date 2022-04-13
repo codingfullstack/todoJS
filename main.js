@@ -84,9 +84,14 @@ function render() {
 render();
 
 // prideti nauja todo i masyva ir sugeneruoti 
+
 function addTodo(todoText) {
-    todos.push({ name: todoText, done: false, edit: false });
-    render();
+    console.log(todoText)
+    if(todoText !== ""){
+        todos.push({ name: todoText, done: false, edit: false });
+        render();
+    }
+    
 }
 
 // enter mygtuko funkcionalumas
